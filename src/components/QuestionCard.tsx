@@ -1,10 +1,13 @@
 import React from "react";
+// types
+import { AnswerObject } from "../App";
 
 type Props = {
   question: string;
   answers: string[];
-  callback: any;
-  userAnswer: any;
+  // not returning anything so return void
+  callback: (e: React.MouseEvent<HTMLButtonElement>) => void;
+  userAnswer: AnswerObject | undefined;
   questionNumber: number;
   totalQuestions: number;
 };
@@ -27,7 +30,9 @@ const QuestionCard: React.FC<Props> = ({
     <div>
       {answers.map((answer) => (
         <div key={answer}>
-          <button disabled={userAnswer} value={answer} onClick={callback}>
+          {/* double exclamation or double bang converts a truthy or falsy value to "true" or "false" */}
+          {/* needed to add a boolean value to disabled so added "double bang" so can convert to true or false */}
+          <button disabled={!!userAnswer} value={answer} onClick={callback}>
             <span dangerouslySetInnerHTML={{ __html: answer }} />
           </button>
         </div>
