@@ -35,15 +35,14 @@ export const Wrapper = styled.div`
   }
 
   .score {
-    color: #fff;
+    color: #fa0606;
+    z-index: 10px;
     font-size: 2rem;
     margin: 0;
   }
 
   h1 {
-    font-family: Fascinate Inline, Haettenschweiler, "Arial Narrow Bold",
-      sans-serif;
-    background-image: linear-gradient(180deg, #fff, #87f1ff);
+    font-family: "Acme", sans-serif;
     background-size: 100%;
     background-clip: text;
     // --webkit-background-clip: text;

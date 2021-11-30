@@ -85,7 +85,7 @@ function App() {
     <>
       <GlobalStyle />
       <Wrapper>
-        <h1>Trivia!</h1>
+        <h1>Trivia Time!</h1>
         {/* display button if gameover or have reached the last of the questions */}
         {gameover || userAnswers.length === TOTAL_QUESTIONS ? (
           <button className="start" onClick={startQuiz}>
