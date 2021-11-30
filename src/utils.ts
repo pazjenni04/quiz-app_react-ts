@@ -1,7 +1,5 @@
 //logic that will reandomize the questions from the API fetch
 
-import React from "react";
-
-const utils = () => {};
-
-export default utils;
+//shuffles the array
+export const shuffleArray = (array: any[]) =>
+  [...array].sort(() => Math.random() - 0.5);

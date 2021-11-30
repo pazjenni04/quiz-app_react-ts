@@ -1,10 +1,11 @@
 //fetches the API for the questions for the quiz
+import { shuffleArray } from "./utils";
 
 export type Question = {
   category: string;
   correct_answer: string;
   difficulty: string;
-  incorrect_answer: string[];
+  incorrect_answers: string[];
   question: string;
   type: string;
 };
@@ -29,5 +30,12 @@ export const fetchQuizQuestions = async (
   //this will await the fetch itself, then will await to convert to json
   const data = await (await fetch(endpoint)).json();
 
-  console.log(data);
+  return data.results.map((question: Question) => ({
+    ...question,
+    //so importing the shuffle function created in utils and shuffling the question array by using a spread operator to copy
+    answers: shuffleArray([
+      ...question.incorrect_answers,
+      question.correct_answer,
+    ]),
+  }));
 };
