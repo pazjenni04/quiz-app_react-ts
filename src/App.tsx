@@ -16,8 +16,6 @@ function App() {
   const [score, setScore] = useState(0);
   const [gameover, setGameOver] = useState(true);
 
-  console.log(fetchQuizQuestions(TOTAL_QUESTIONS, Difficulty.EASY));
-
   // will start quiz
   const startQuiz = async () => {};
 
@@ -25,6 +23,11 @@ function App() {
   const checkAnswer = (e: React.MouseEvent<HTMLButtonElement>) => {};
 
   const nextQuestion = () => {};
+
+  console.log(
+    "This is your question",
+    fetchQuizQuestions(TOTAL_QUESTIONS, Difficulty.MEDIUM)
+  );
 
   return (
     <div className="App">
