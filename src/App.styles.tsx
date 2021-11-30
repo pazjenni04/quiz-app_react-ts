@@ -31,13 +31,14 @@ export const Wrapper = styled.div`
 
   // styles the p tag in the wrapper
   > p {
-    color: purple;
+    color: #0047bb;
+    font-size: 30px;
   }
 
   .score {
     color: #fa0606;
     z-index: 10px;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 0;
   }
 
@@ -45,15 +46,11 @@ export const Wrapper = styled.div`
     font-family: "Acme", sans-serif;
     background-size: 100%;
     background-clip: text;
-    // --webkit-background-clip: text;
-    // --webkit-text-fill-color: transparent;
-    // --moz-background-clip: text;
-    // --moz-text-fill-color: transparent;
-    font-weight: 400;
-    filter: drop-shadow(2px 2px #0085a3);
-    font-size: 70px;
+    font-weight: 500;
+    filter: drop-shadow(3px 3px #0085a3);
+    font-size: 80px;
     text-align: center;
-    margin: 20px;
+    margin: 25px;
   }
 
   .start .next {
