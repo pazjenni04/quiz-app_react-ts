@@ -37,7 +37,7 @@ If answered incorrectly, the correct answer will be highlighted in green and the
 
 ![The following is an example if the user answers incorrectly](https://raw.githubusercontent.com/pazjenni04/quiz-app_react-ts/main/src/images/incorrect-answer.PNG)
 
-The overall goal of the Trivia game is for the user to answer as many questions correct out of the 10 questions presented with.
+The overall goal of the Trivia game is for the user to answer as many questions correctly out of the 10 questions presented with.
 
 ## Demo
 
