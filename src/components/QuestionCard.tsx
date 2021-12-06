@@ -1,6 +1,8 @@
 import React from "react";
 // types
 import { AnswerObject } from "../App";
+// styling
+import { Wrapper, ButtonWrapper } from "./QuestionCard.styles";
 
 type Props = {
   question: string;
@@ -22,23 +24,28 @@ const QuestionCard: React.FC<Props> = ({
   questionNumber,
   totalQuestions,
 }) => (
-  <div>
+  <Wrapper>
     <p className="number">
       Question: {questionNumber} / {totalQuestions}
     </p>
     <p dangerouslySetInnerHTML={{ __html: question }} />
     <div>
       {answers.map((answer) => (
-        <div key={answer}>
+        <ButtonWrapper
+          key={answer}
+          // checks to see if answer matches the correct answer but put a question mark before the . because if no data available, won't error out & make undefined
+          correct={userAnswer?.correctAnswer === answer}
+          userClicked={userAnswer?.answer === answer}
+        >
           {/* double exclamation or double bang converts a truthy or falsy value to "true" or "false" */}
           {/* needed to add a boolean value to disabled so added "double bang" so can convert to true or false */}
           <button disabled={!!userAnswer} value={answer} onClick={callback}>
             <span dangerouslySetInnerHTML={{ __html: answer }} />
           </button>
-        </div>
+        </ButtonWrapper>
       ))}
     </div>
-  </div>
+  </Wrapper>
 );
 
 export default QuestionCard;

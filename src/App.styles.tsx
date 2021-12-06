@@ -18,6 +18,8 @@ body {
 * {
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #000000;
 
 }
 
@@ -38,8 +40,8 @@ export const Wrapper = styled.div`
   .score {
     color: #fa0606;
     z-index: 10px;
-    font-size: 3rem;
-    margin: 0;
+    font-size: 1.7rem;
+    margin: 5px;
   }
 
   h1 {
@@ -47,14 +49,26 @@ export const Wrapper = styled.div`
     background-size: 100%;
     background-clip: text;
     font-weight: 500;
+    color: #000ad4;
     filter: drop-shadow(3px 3px #0085a3);
-    font-size: 80px;
+    font-size: 90px;
     text-align: center;
     margin: 25px;
   }
 
-  .start .next {
+  .start,
+  .next {
     cursor: pointer;
-    background: linear-gradient();
+    background: linear-gradient(180deg, #fff, #ffcc91);
+    border: 2px solid #d38558;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: 50px;
+    margin: 20px 0;
+    padding: 0 40px;
+  }
+
+  .start {
+    max-width: 200px;
   }
 `;

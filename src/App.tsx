@@ -90,7 +90,7 @@ function App() {
         {gameover || userAnswers.length === TOTAL_QUESTIONS ? (
           <button className="start" onClick={startQuiz}>
             {" "}
-            Start Quiz{" "}
+            Start{" "}
           </button>
         ) : null}
 
