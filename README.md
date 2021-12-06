@@ -56,8 +56,8 @@ _Questions? Feel free to contact me._
 
 # Links
 
-Heroku deployed link - https://react-ts-trivia-app.herokuapp.com/
-Github link - https://github.com/pazjenni04/quiz-app_react-ts.git
+- Heroku deployed link - https://react-ts-trivia-app.herokuapp.com/
+- Github link - https://github.com/pazjenni04/quiz-app_react-ts.git
 
 # License
 
