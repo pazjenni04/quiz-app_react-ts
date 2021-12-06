@@ -11,7 +11,7 @@
 
 ## **Description**
 
-The objective of this application is to quiz the user on fun knowledge! As you navigate through each question, the user will be prompted whether they answered correctly on incorrectly. Application was built using typescript.
+The objective of this application is to quiz the user on fun trivia! As you navigate through each question, the user will be prompted whether they answered correctly on incorrectly. Application was built using typescript.
 
 ## **Usage**
 
