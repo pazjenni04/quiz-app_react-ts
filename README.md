@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+# QUIZ-APP_REACT-TS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Table of Contents**
 
-## Available Scripts
+1. [Description](#description)
+2. [Usage](#usage)
+3. [Technologies](#technologies)
+4. [Questions](#questions)
+5. [Link](#links)
+6. [License](#license)
 
-In the project directory, you can run:
+## **Description**
 
-### `npm start`
+The objective of this application is to quiz the user on fun knowledge! As you navigate through each question, the user will be prompted whether they answered correctly on incorrectly. Application was built using typescript.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## **Usage**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To use this application, the user can either clone the following git repository
 
-### `npm test`
+    https://github.com/pazjenni04/quiz-app_react-ts.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+and run command `npm run start` in their terminal to launch locally
 
-### `npm run build`
+Or the user can enter the deployed link into their web browser
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    https://react-ts-trivia-app.herokuapp.com/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Once the application is running, the user will be presented with a series of random questions over different topics to put their knowledge to the test! Once the application is launched, the user will be presented with the following homepage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![The following image is the homepage of the application where the user can select the 'Start' button to begin the quiz](src\images\homepage-img.PNG)
 
-### `npm run eject`
+By clicking the 'Start' button, the user will then begin the trivia and be presented with a question at a time. If the user answers correctly, a point will be added to their score which is displayed at the top of the webpage and their answer will be highlighted in green.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![The following is an example if the user answers correctly](src\images\correct-answer.PNG)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If answered incorrectly, the correct answer will be highlighted in green and their response will be highlighted in red and no points will be added to their score.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![The following is an example if the user answers incorrectly](src\images\incorrect-answer.PNG)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The overall goal of the Trivia game is for the user to answer as many questions correct out of the 10 questions presented with.
 
-## Learn More
+## Demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![The following is a demo of the application](src\images\trivia-app-demo.gif)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## **Technologies**
+
+- TypeScript, React.js, and node.js
+
+## **Questions**
+
+_Questions? Feel free to contact me._
+
+- Via [Gtihub](https://github.com/pazjenni04)
+- Via [Email](pazjenni1331@gmail.com)
+
+# Links
+
+Heroku deployed link - https://react-ts-trivia-app.herokuapp.com/
+Github link - https://github.com/pazjenni04/quiz-app_react-ts.git
+
+# License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
