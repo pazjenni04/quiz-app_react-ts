@@ -27,21 +27,21 @@ Or the user can enter the deployed link into their web browser
 
 Once the application is running, the user will be presented with a series of random questions over different topics to put their knowledge to the test! Once the application is launched, the user will be presented with the following homepage
 
-![The following image is the homepage of the application where the user can select the 'Start' button to begin the quiz](src\images\homepage-img.PNG)
+![The following image is the homepage of the application where the user can select the 'Start' button to begin the quiz](https://raw.githubusercontent.com/pazjenni04/quiz-app_react-ts/main/src/images/homepage-img.PNG)
 
 By clicking the 'Start' button, the user will then begin the trivia and be presented with a question at a time. If the user answers correctly, a point will be added to their score which is displayed at the top of the webpage and their answer will be highlighted in green.
 
-![The following is an example if the user answers correctly](src\images\correct-answer.PNG)
+![The following is an example if the user answers correctly](https://raw.githubusercontent.com/pazjenni04/quiz-app_react-ts/main/src/images/correct-answer.PNG)
 
 If answered incorrectly, the correct answer will be highlighted in green and their response will be highlighted in red and no points will be added to their score.
 
-![The following is an example if the user answers incorrectly](src\images\incorrect-answer.PNG)
+![The following is an example if the user answers incorrectly](https://raw.githubusercontent.com/pazjenni04/quiz-app_react-ts/main/src/images/incorrect-answer.PNG)
 
 The overall goal of the Trivia game is for the user to answer as many questions correct out of the 10 questions presented with.
 
 ## Demo
 
-![The following is a demo of the application](src\images\trivia-app-demo.gif)
+![The following is a demo of the application](https://github.com/pazjenni04/quiz-app_react-ts/blob/main/src/images/trivia-app-demo.gif)
 
 ## **Technologies**
 
